@@ -11,11 +11,11 @@ var form, player, game;
 var cars, car1, car2, car3, car4;
 
 function preload(){
-c1=loadImage("images/car1.png");
-c2=loadImage("images/car2.png");
-c3=loadImage("images/car3.png");
-c4=loadImage("images/car4.png");
-track=loadImage("images/track.jpg");
+c1=loadImage("car1.png");
+c2=loadImage("car2.png");
+c3=loadImage("car3.png");
+c4=loadImage("car4.png");
+track=loadImage("track.jpg");
 }
 function setup(){
   canvas = createCanvas(displayWidth - 20, displayHeight-30);
